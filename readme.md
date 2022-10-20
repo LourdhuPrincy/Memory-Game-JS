@@ -13,4 +13,6 @@
 - After finishing game result container will be displayed which shows your winning status and score.
 - There is a restart button to retry the game.
 
+[live link](https://memorygame-app-js.netlify.app/)
+
 ![screen shot](./images/screen-shot.png);
