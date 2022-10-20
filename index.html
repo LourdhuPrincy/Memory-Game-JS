@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Memory Game</h1>
+        <div class="note-container">
+            <div class="notes">
+                <h4>Note :</h4>
+                <ul>
+                  <li>Total Moves : 15</li>
+                  <li>Max Score : 8</li>
+                  <li>Win Status : score should be 5 and above.</li>
+                  <li>Game ends at the last move or when you reach max score.</li>
+               </ul>
+            </div>
+            <button class="start-btn">START</button>
+        </div>
+        <div class="game-content">
+            <div class="game-detail">
+                <h2 class="score">SCORE : <span>0</span></h2>
+                <h2 class="moves">MOVES LEFT : <span>15</span></h2>
+            </div>
+            <div class="card-container"></div>
+         </div>
+         <div class="result">
+            <h3 class="game-status">Game Over</h3>
+            <h1 class="game-result">won the game</h1>
+            <h2 class="game-score">Your score is</h2>
+            <button class="restart">Restart</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
